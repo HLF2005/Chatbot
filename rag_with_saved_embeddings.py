@@ -10,7 +10,7 @@ from pathlib import Path
 from Chunking import *
 
 # Initialize API client
-api_key = "3nIsGfqZ6bdMteCc4qsBHjyjcGHZUSrm"
+api_key = ""
 client = Mistral(api_key=api_key)
 
 # Constants for caching
@@ -20,7 +20,7 @@ EMBED_CACHE_DIR.mkdir(parents=True, exist_ok=True)
 
 # Fetch document path
 doc_path = Path(
-    "C:/Users/kolar/Desktop/Centrale_Med/Asso/Christopher.ai/RAG_ChatBot/Code_partage/Syllabus_Ing_2024_2025.pdf"
+    ""
 )
 
 
@@ -210,3 +210,4 @@ if __name__ == "__main__":
 #     print("\n=== Résumé des réponses ===")
 #     for m, ans in results.items():
 #         print(f"\n{m}: {ans}")
+
